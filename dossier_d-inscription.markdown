@@ -2,6 +2,6 @@
 ---
 layout: page
 title: Dossier D'inscription
-permalink: /about/
+permalink: /dossier_inscription/
 ---
 -->
