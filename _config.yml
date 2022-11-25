@@ -21,7 +21,7 @@
 title: Vegvisir
 email_username: Vegvisir.airsoft.langres@gmail.com
 #description: >- # this means to ignore newlines until "baseurl:"
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/Vegvisir" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 facebook_username: Vegvisir airsoft-langres
 instagram_username: airsoftlangres52
