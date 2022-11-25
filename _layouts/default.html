@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "fr" }}">
+
+  {%- include head.html -%}
+
+    <style>
+       #grad {
+        height: 600px; 
+        background-color: blue; /* Pour les navigateurs qui ne supportent pas de gradient */
+        background-image: linear-gradient(to bottom left, #FF0000, #000CFF);
+      }
+    </style>
+
+  <body>
+
+      <margin-left: 50px 50px;>
+
+    {%- include header.html -%}
+
+    <main class="page-content" aria-label="Content">
+      <div id ="grad">
+        {{ content }}
+      </div>
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>

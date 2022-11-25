@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "L'équipe"
+date:   2022-11-08 12:00:54 +0100
+categories: jekyll update
+---
+
+<p>
+	L'équipe Vegsivir est composer de 5 membres en 2022:</p>
+   - Florent HEIT (Ragnarok): Le président de l'association.
+   - Remy HEIT (Airsoft Skull): Le co-président de l'association.
+   - Florian DUCLOS (Flo426): Le vice-président de l'association.
+   - Joshua LECLERE (Josh52): Le trésorier de l'association.
+   - Romain DROUIN (Roomy52): Le secrétaire de l'association.
+
+
+<!--![smiley](/img/equipe-aisoft2022.jpg)-->

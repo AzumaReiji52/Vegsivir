@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+  <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+  {%- if site.posts.size > 0 -%}
+   <h2 class="post-list-heading">{{ page.list_title | default: "Une passion avant tout. La solidarité d'une équipe vaut toujours la victoire." }}</h2>
+  <h3> c'est quoi l’air soft? </h3>
+    <p> L'air soft est une activité de loisir, un jeux grandeur nature dans lequel les joueurs remplissent des missions ou simule des combats, seul ou en équipe, en utilisant des répliques d'arme (exemple ci-dessous) qui projettent des billes (en plastique ou biodégradable) de façon plus ou moins puissante.</p>
+    <ul class="post-list">
+      {%- for post in site.posts -%}
+      <!--<li>
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <span class="post-meta">{{ post.date | date: date_format }}</span>-->
+     <h4>
+       <a class="post-link" href="{{ post.url | relative_url }}">
+         {{ post.title | escape }}
+       </a>
+     </h4>
+        {%- if site.show_excerpts -%}
+          {{ post.excerpt }}
+        {%- endif -%}
+      </li>
+      {%- endfor -%}
+    </ul>
+
+    <!--<p class="rss-subscribe">create by Tobias Koch</a></p>
+  {%- endif -%}-->
+
+</div>
